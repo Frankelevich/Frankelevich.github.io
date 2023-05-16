@@ -75,3 +75,7 @@ aside *{
 		font-family: "eyeful";
 	src: url('media/eyeful.otf');
 }
+
+footer *{
+	font-family:"Oswald", sans-serif;
+}
