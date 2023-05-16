@@ -2,6 +2,8 @@
 	color: lightblue;
 	background-color: #026;
 	font-family: "eyeful",bold;
+	min-width: 250px;
+	flex-wrap: wrap;
 }
 
 article {
@@ -24,10 +26,6 @@ body {
 
 }
 
-body *{
-	min-width: 250px;
-	flex-wrap: wrap;
-}
 
 img {
 	min-width: 1px;
