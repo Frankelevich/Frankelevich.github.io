@@ -1,7 +1,77 @@
 * {
-	color: #0070b0;
+	color: lightblue;
+	background-color: #026;
+	font-family: "eyeful",bold;
+}
+
+article {
+	margin: 3px;
+	display: flex;
+	justify-content: center;
+}
+
+#titulo {
+	font-family: "Scratches";
+	color: #86c;
+	text-shadow: ;
+
 }
 
 body {
-	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+li:hover {
+	color: seagreen;
+}
+
+a:hover {
+	color: yellow;
+}
+
+article {
+	display: flex;
+	background-color: #007;
+	margin: 1px;
+	padding-: 0px;
+	 border: 5px double red;
+	 border-radius: 10px;
+	 box-shadow:  10px 0px 10px 10px #000;
+}
+
+article *{
+	background-color: darkblue;
+	margin: 3px;
+
+}
+
+
+aside {
+	display: table-cell;
+	background-color: #007;
+	margin: 1px;
+	padding-: 0px;
+	 border: 5px double red;
+	 border-radius: 10px;
+	 box-shadow:  10px 0px 10px 10px #000;
+	 vertical-align: top;
+}
+aside *{
+	background-color: darkblue;
+	margin: 3px;
+}
+
+
+
+@font-face { 
+	font-family: "Scratches";
+	src: url('media/The Scratches.otf');
+}
+
+@font-face {
+		font-family: "eyeful";
+	src: url('media/eyeful.otf');
 }
